@@ -1,0 +1,19 @@
+server:
+  port: 12000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.184.136:6868/eureka/
+spring:
+  application:
+    name: tensquare-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/chuanzhiliubei/tensquare-config.git
+management: #暴露触发消息总线的地址  ###
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

@@ -1,0 +1,5 @@
+com\tensquare\search\dao\ArticleSearchDao.class
+com\tensquare\search\pojo\Article.class
+com\tensquare\search\SearchApplication.class
+com\tensquare\search\controller\ArticleSearchController.class
+com\tensquare\search\service\ArticleSearchService.class
